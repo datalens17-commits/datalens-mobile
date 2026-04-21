@@ -208,7 +208,7 @@ function slotKey() {
   const li   = document.getElementById("lessonSelect").selectedIndex;
   const date = document.getElementById("dateInput").value;
   const mon  = getMonday(date);
-  return `${mon}|${day}|${li}`;
+  return `${mon}__${day}__${li}`;
 }
 
 // ── Ініціалізація ─────────────────────────────────────────
